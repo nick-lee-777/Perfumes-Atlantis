@@ -1,0 +1,115 @@
+/*==========================================
+                RESET
+==========================================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+
+    background: #000;
+    color: #fff;
+
+    font-family: 'Inter', sans-serif;
+
+    overflow-x: hidden;
+
+}
+
+img{
+
+    max-width: 100%;
+    display: block;
+
+}
+
+a{
+
+    text-decoration: none;
+    color: inherit;
+
+}
+
+button{
+
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+
+}
+
+ul{
+
+    list-style: none;
+
+}
+
+
+/*==========================================
+                VARIABLES
+==========================================*/
+
+:root{
+
+    --black: #000000;
+    --white: #ffffff;
+
+    --gray-light: #bcbcbc;
+    --gray: #8f8f8f;
+    --gray-dark: #4f4f4f;
+
+    --container: 1200px;
+
+    --transition: .35s ease;
+
+}
+
+
+/*==========================================
+                GLOBAL
+==========================================*/
+
+section{
+
+    width: 100%;
+
+}
+
+.container{
+
+    width: min(90%, var(--container));
+
+    margin: auto;
+
+}
+
+.title{
+
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+.subtitle{
+
+    color: var(--gray-light);
+
+}
+
+.btn{
+
+    display: inline-flex;
+
+    justify-content: center;
+    align-items: center;
+
+    transition: var(--transition);
+
+}
