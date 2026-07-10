@@ -300,6 +300,116 @@ ul{
 }
 
 /*==========================================
+                TOP PICKS
+==========================================*/
+
+.featured{
+
+    padding:40px 25px 100px;
+
+    background:#000;
+
+}
+
+.featured-header{
+
+    margin-bottom:50px;
+
+}
+
+.product-card{
+
+    margin-bottom:70px;
+
+}
+
+.product-image{
+
+    width:100%;
+
+    aspect-ratio:1/1;
+
+    background:#111;
+
+    border-radius:18px;
+
+    margin-bottom:25px;
+
+}
+
+.product-card h3{
+
+    font-family:'Space Grotesk',sans-serif;
+
+    font-size:28px;
+
+    margin-bottom:8px;
+
+}
+
+.product-brand{
+
+    color:#9c9c9c;
+
+    margin-bottom:18px;
+
+    font-size:15px;
+
+}
+
+.product-description{
+
+    color:#d0d0d0;
+
+    line-height:1.8;
+
+    font-size:16px;
+
+    margin-bottom:22px;
+
+}
+
+.price{
+
+    display:block;
+
+    font-size:22px;
+
+    font-weight:600;
+
+    margin-bottom:20px;
+
+}
+
+.product-btn{
+
+    display:block;
+
+    width:100%;
+
+    text-align:center;
+
+    padding:16px;
+
+    border-radius:999px;
+
+    background:#fff;
+
+    color:#000;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.product-btn:hover{
+
+    transform:translateY(-2px);
+
+}
+
+/*==========================================
                 VARIABLES
 ==========================================*/
 
