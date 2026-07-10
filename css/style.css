@@ -532,6 +532,126 @@ HEADER
 }
 
 /*==========================================
+                FOOTER
+==========================================*/
+
+.footer{
+
+    background:#000;
+
+    padding:120px 25px 45px;
+
+}
+
+.footer-content{
+
+    text-align:center;
+
+    margin-bottom:90px;
+
+}
+
+.footer-title{
+
+    font-family:'Space Grotesk',sans-serif;
+
+    font-size:2.5rem;
+
+    line-height:1.1;
+
+    margin:18px 0 22px;
+
+}
+
+.footer-description{
+
+    color:#bdbdbd;
+
+    line-height:1.8;
+
+    max-width:420px;
+
+    margin:0 auto 45px;
+
+}
+
+.footer-buttons{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:16px;
+
+}
+
+.footer-btn{
+
+    width:100%;
+
+    padding:18px;
+
+    border:1px solid rgba(255,255,255,.15);
+
+    border-radius:999px;
+
+    text-align:center;
+
+    transition:.35s;
+
+}
+
+.footer-btn:hover{
+
+    background:#fff;
+
+    color:#000;
+
+}
+
+.footer-bottom{
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    padding-top:35px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:14px;
+
+    text-align:center;
+
+}
+
+.footer-bottom p{
+
+    font-weight:600;
+
+    color:#fff;
+
+}
+
+.footer-bottom span{
+
+    color:#9f9f9f;
+
+    font-size:.9rem;
+
+}
+
+.footer-bottom small{
+
+    margin-top:18px;
+
+    color:#666;
+
+    font-size:.8rem;
+
+}
+
+/*==========================================
                 VARIABLES
 ==========================================*/
 
