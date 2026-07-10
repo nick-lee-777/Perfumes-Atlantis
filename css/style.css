@@ -474,6 +474,64 @@ HEADER
 }
 
 /*==========================================
+                OUR FRAGRANCES
+==========================================*/
+
+.craft{
+
+    padding:110px 25px;
+
+    background:#050505;
+
+}
+
+.craft-grid{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:28px;
+
+    margin-top:50px;
+
+}
+
+.craft-item{
+
+    padding-bottom:28px;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.craft-item:last-child{
+
+    border:none;
+
+}
+
+.craft-item h3{
+
+    font-family:'Space Grotesk',sans-serif;
+
+    font-size:1.5rem;
+
+    margin-bottom:10px;
+
+}
+
+.craft-item p{
+
+    color:#b8b8b8;
+
+    line-height:1.7;
+
+    font-size:.95rem;
+
+}
+
+/*==========================================
                 VARIABLES
 ==========================================*/
 
