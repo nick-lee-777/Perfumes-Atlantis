@@ -124,10 +124,11 @@ ul{
 
     object-fit:cover;
 
-    animation:heroZoom 20s ease-in-out infinite;
+    transform-origin:center;
+
+    animation:heroMotion 18s ease-in-out infinite;
 
 }
-
 .hero-overlay{
 
     position:absolute;
