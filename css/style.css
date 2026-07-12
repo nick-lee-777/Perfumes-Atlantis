@@ -487,43 +487,77 @@ HEADER
 
 .craft-grid{
 
+    display:grid;
+
+    grid-template-columns:1fr;
+
+    gap:22px;
+
+    margin-top:55px;
+
+}
+
+.craft-card{
+
+    background:rgba(255,255,255,.03);
+
+    border:1px solid rgba(255,255,255,.06);
+
+    border-radius:26px;
+
+    padding:30px;
+
+    backdrop-filter:blur(18px);
+
+    transition:.35s ease;
+
+}
+
+.craft-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:rgba(255,255,255,.15);
+
+    background:rgba(255,255,255,.05);
+
+}
+
+.craft-icon{
+
+    width:58px;
+
+    height:58px;
+
+    border-radius:18px;
+
     display:flex;
 
-    flex-direction:column;
+    justify-content:center;
 
-    gap:28px;
+    align-items:center;
 
-    margin-top:50px;
+    background:rgba(255,255,255,.06);
 
-}
+    font-size:1.6rem;
 
-.craft-item{
-
-    padding-bottom:28px;
-
-    border-bottom:1px solid rgba(255,255,255,.08);
+    margin-bottom:24px;
 
 }
 
-.craft-item:last-child{
-
-    border:none;
-
-}
-
-.craft-item h3{
+.craft-card h3{
 
     font-family:'Space Grotesk',sans-serif;
 
-    font-size:1.5rem;
+    font-size:1.3rem;
 
-    margin-bottom:10px;
+    margin-bottom:12px;
 
 }
 
-.craft-item p{
+.craft-card p{
 
-    color:#b8b8b8;
+    color:#bdbdbd;
 
     line-height:1.7;
 
