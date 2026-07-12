@@ -700,6 +700,62 @@ HEADER
 }
 
 /*==========================================
+            PAYMENT METHODS
+==========================================*/
+
+.payment-methods{
+
+    margin-top:30px;
+
+    text-align:center;
+
+}
+
+.payment-title{
+
+    color:#fff;
+
+    font-weight:600;
+
+    margin-bottom:20px;
+
+}
+
+.payment-icons{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:30px;
+
+    margin-bottom:20px;
+
+}
+
+.payment-icons img{
+
+    height:34px;
+
+    width:auto;
+
+    opacity:.9;
+
+    transition:.3s ease;
+
+}
+
+.payment-icons img:hover{
+
+    opacity:1;
+
+    transform:scale(1.05);
+
+}
+
+/*==========================================
                 VARIABLES
 ==========================================*/
 
