@@ -685,6 +685,20 @@ HEADER
 
 }
 
+.catalog-btn{
+
+    background:rgba(255,255,255,.05);
+
+}
+
+.catalog-btn:hover{
+
+    background:#fff;
+
+    color:#000;
+
+}
+
 /*==========================================
                 VARIABLES
 ==========================================*/
